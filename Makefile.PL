@@ -20,16 +20,20 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Win32::Tracert",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Object::Tiny" => "1.08"
+  },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
 );
 
 
-my %FallbackPrereqs = ();
+my %FallbackPrereqs = (
+  "Object::Tiny" => "1.08"
+);
 
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {

@@ -144,7 +144,7 @@ Win32::Tracert::Parser - Parser object used by method B<to_trace> in Win32::Trac
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

@@ -12,4 +12,6 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Win32-Tracert
-version: 0.001
+requires:
+  Object::Tiny: 1.08
+version: 0.002
