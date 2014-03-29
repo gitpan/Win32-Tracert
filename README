@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Win32-Tracert,
-version 0.002:
+version 0.003:
 
   Call Win32 tracert tool or parse Win32 tracert output;
 

@@ -6,7 +6,6 @@ use Object::Tiny qw (input);
 # ABSTRACT: Parser object used by method B<to_trace> in Win32::Tracert;
 use Net::hostent;
 use Socket;
-use Data::Dumper;
 
 sub to_parse{
     my $self=shift;
@@ -144,7 +143,7 @@ Win32::Tracert::Parser - Parser object used by method B<to_trace> in Win32::Trac
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

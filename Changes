@@ -1,5 +1,10 @@
 Revision history for Win32-Tracert
 
+0.003     2014-03-29 16:33:15+01:00 Europe/Paris
+    * clean unuseful code (Improve my knowledge on Dist:Zilla)
+        - Remove use Data::Printer in 04_weird_use.t
+        - Remove use Data::Dumper in Parser.pm
+
 0.002     2014-03-29 00:30:54+01:00 Europe/Paris
 
 0.001     2014-03-28 00:01:34+01:00 Europe/Paris

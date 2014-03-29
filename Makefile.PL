@@ -21,10 +21,13 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Win32::Tracert",
   "PREREQ_PM" => {
-    "Object::Tiny" => "1.08"
+    "Net::hostent" => 0,
+    "Object::Tiny" => "1.08",
+    "Socket" => 0,
+    "Test::More" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -32,7 +35,10 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Object::Tiny" => "1.08"
+  "Net::hostent" => 0,
+  "Object::Tiny" => "1.08",
+  "Socket" => 0,
+  "Test::More" => 0
 );
 
 

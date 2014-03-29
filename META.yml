@@ -13,5 +13,8 @@ meta-spec:
   version: 1.4
 name: Win32-Tracert
 requires:
+  Net::hostent: 0
   Object::Tiny: 1.08
-version: 0.002
+  Socket: 0
+  Test::More: 0
+version: 0.003
