@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Call Win32 tracert tool or parse Win32 tracert output;",
+  "ABSTRACT" => "Call Win32 tracert tool or parse Win32 tracert output",
   "AUTHOR" => "S\x{e9}bastien Deseille <sebastien.deseille\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.004",
+  "VERSION" => "0.005",
   "test" => {
     "TESTS" => "t/*.t"
   }

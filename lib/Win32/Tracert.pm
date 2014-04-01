@@ -7,7 +7,7 @@ use Socket qw ();
 use Object::Tiny qw (destination circuit);
 use Win32::Tracert::Parser;
 
-# ABSTRACT: Call Win32 tracert tool or parse Win32 tracert output;
+# ABSTRACT: Call Win32 tracert tool or parse Win32 tracert output
 
 my %tracert_result;
 
@@ -187,11 +187,11 @@ __END__
 
 =head1 NAME
 
-Win32::Tracert - Call Win32 tracert tool or parse Win32 tracert output;
+Win32::Tracert - Call Win32 tracert tool or parse Win32 tracert output
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 

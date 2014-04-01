@@ -1,11 +1,12 @@
 package Win32::Tracert::Parser;
 use strict;
 use warnings;
-use Object::Tiny qw (input);
 
-# ABSTRACT: Parser object used by method B<to_trace> in Win32::Tracert;
+use Object::Tiny qw (input);
 use Net::hostent;
 use Socket;
+
+# ABSTRACT: Parser object used by method B<to_trace> in Win32::Tracert
 
 sub to_parse{
     my $self=shift;
@@ -139,11 +140,11 @@ __END__
 
 =head1 NAME
 
-Win32::Tracert::Parser - Parser object used by method B<to_trace> in Win32::Tracert;
+Win32::Tracert::Parser - Parser object used by method B<to_trace> in Win32::Tracert
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 AUTHOR
 

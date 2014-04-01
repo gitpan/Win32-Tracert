@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Win32-Tracert,
-version 0.004:
+version 0.005:
 
-  Call Win32 tracert tool or parse Win32 tracert output;
+  Call Win32 tracert tool or parse Win32 tracert output
 
 This software is copyright (c) 2014 by Sébastien Deseille.
 
