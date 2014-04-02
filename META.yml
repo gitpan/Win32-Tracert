@@ -17,4 +17,7 @@ requires:
   Object::Tiny: 1.08
   Socket: 0
   Test::More: 0
-version: 0.007
+resources:
+  homepage: https://github.com/sdeseille/win32-tracert
+  repository: https://github.com/sdeseille/win32-tracert.git
+version: 0.008
