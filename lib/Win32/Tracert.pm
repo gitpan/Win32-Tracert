@@ -1,4 +1,5 @@
 package Win32::Tracert;
+$Win32::Tracert::VERSION = '0.006';
 use strict;
 use warnings;
 
@@ -191,7 +192,7 @@ Win32::Tracert - Call Win32 tracert tool or parse Win32 tracert output
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 

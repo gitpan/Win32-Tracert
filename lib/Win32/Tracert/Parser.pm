@@ -1,4 +1,5 @@
 package Win32::Tracert::Parser;
+$Win32::Tracert::Parser::VERSION = '0.006';
 use strict;
 use warnings;
 
@@ -144,7 +145,7 @@ Win32::Tracert::Parser - Parser object used by method B<to_trace> in Win32::Trac
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 AUTHOR
 
