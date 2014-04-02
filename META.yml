@@ -17,4 +17,4 @@ requires:
   Object::Tiny: 1.08
   Socket: 0
   Test::More: 0
-version: 0.006
+version: 0.007
